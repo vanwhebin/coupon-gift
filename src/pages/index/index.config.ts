@@ -1,3 +1,3 @@
 export default {
-  navigationBarTitleText: '钢钢祝燕程七夕快乐哦~'
+  navigationBarTitleText: '祝梦笛七夕快乐哦~'
 }
