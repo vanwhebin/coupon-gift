@@ -24,11 +24,11 @@ const Index: FC = () => {
     });
   }, 4100)
 
-  console.log('To 燕程:')
+  console.log('To 梦笛:')
   console.log('    七夕快乐哟~ ')
-  console.log('       by: Rebar')
+  console.log('       by: 老万')
 
-  console.log('仓库地址：https://github.com/Rebar0131/ele-coupons.git')
+  //console.log('仓库地址：https://github.com/Rebar0131/ele-coupons.git')
 
   const getName = () => {
     if (dayjs().startOf('day').valueOf() === dayjs('2021-08-14').valueOf()) {
@@ -40,7 +40,7 @@ const Index: FC = () => {
   return (
     <View className='index'>
       <Love />
-      <View className='loading-text'>燕程, {getName()}快乐哟~</View>
+      <View className='loading-text'>梦笛, {getName()}快乐哟~</View>
     </View>
   )
 }
